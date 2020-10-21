@@ -819,13 +819,14 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   outline: none;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .form-flex-container {
   display: flex;
 }
-.email-form::placeholder {
-  padding-left: 16px;
-}
+
 .form-button {
   display: flex;
   align-items: center;
